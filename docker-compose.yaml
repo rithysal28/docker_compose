@@ -1,0 +1,20 @@
+services:
+  web-test:
+    image: nginx:alpine
+    container_name: test-web-server
+    restart: always
+    ports:
+      - "8081:80"
+    # This creates a "mini website" directly from the config
+    command: >
+      /bin/sh -c "echo '<html><body style=\"background:#111;color:#00ff00;font-family:sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;\">
+      <h1>testing docker compose</h1>
+      <p>Status: <span style=\"color:white\">Online</span></p>
+      <div style=\"border:1px solid #333;padding:20px;border-radius:10px;\">
+        <h3>Changes</h3>
+        <ul>
+          <li>bbb change 1- Internal</li>
+          <li>aaa test test Telegram Bot APIssssscvvvvssssssssssssssssss commit   sdsdfs push- Active</li>
+        </ul>
+      </div>
+      </body></html>' > /usr/share/nginx/html/index.html && nginx -g \"daemon off;\""
