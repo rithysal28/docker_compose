@@ -13,8 +13,8 @@ services:
       <div style=\"border:1px solid #333;padding:20px;border-radius:10px;\">
         <h3>Changes</h3>
         <ul>
-          <li>abc world cup messi 10, yes world cup = 1</li>
-          <li>123 UCL cup ronaldo 7, no world cup</li>
+          <li>111 abc world cup messi 10, yes world cup = 1</li>
+          <li>aaa 123 UCL cup ronaldo 7, no world cup</li>
         </ul>
       </div>
       </body></html>' > /usr/share/nginx/html/index.html && nginx -g \"daemon off;\""
