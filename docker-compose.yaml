@@ -12,8 +12,8 @@ services:
       <div style=\"border:1px solid #333;padding:20px;border-radius:10px;\">
         <h3>inside this box, there will be changes underneath: </h3>
         <ul>
-          <li>this is the first line after connecting with the postgresdb</li>
-          <li>this is the second line after connecting with the postgresdb</li>
+          <li>this is the first line asydgfyuwegfyth the postgresdb</li>
+          <li>this is the second line abfhsdbfsdhfng with the postgresdb</li>
         </ul>
       </div>
       </body></html>' > /usr/share/nginx/html/index.html && nginx -g \"daemon off;\""
