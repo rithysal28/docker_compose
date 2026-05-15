@@ -13,8 +13,8 @@ services:
       <div style=\"border:1px solid #333;padding:20px;border-radius:10px;\">
         <h3>Changes</h3>
         <ul>
-          <li>postgres 1</li>
-          <li>postgres 2</li>
+          <li>postgresdb 1</li>
+          <li>postgresdb 2</li>
         </ul>
       </div>
       </body></html>' > /usr/share/nginx/html/index.html && nginx -g \"daemon off;\""
